@@ -7,7 +7,7 @@ This project uses an H2 database, so you don't need to change the database setti
 - JDK 11
 - Spring Boot
 - Docker
-- H2 database
+- H2 database (if need I can replace it with MySql)
 - Spring Web
 - Spring ORM
 - Hibernate
