@@ -12,6 +12,7 @@ This project uses an H2 database, so you don't need to change the database setti
 - Spring ORM
 - Hibernate
 - JPA Repository
+- SQL/HQL
 - Lombok
 - Maven
 
