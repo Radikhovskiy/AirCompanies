@@ -1,4 +1,4 @@
-*AirCompanies service*
+🛫 *AirCompanies service*  🛫
 -
 This is a program based on Spring Boot, which allows us to create and modify airplanes, as well as manage flights.
 This project uses an H2 database, so you don't need to change the database settings.
