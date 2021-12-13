@@ -37,9 +37,11 @@ Example: http://localhost:8080/flights/Delta-Air-Lines?status=ACTIVE
 5) To add new Airplane you need to use Postman and send POST request on url http://localhost:8080/airplanes/add (in header choose Content type on application/json and transfer the body in raw format)
 
 You can add only one Airplane with the same name.
+
 6) To add new Flight enter: http://localhost:8080/flights/add and follow the steps from the previous point.
 
 P.s. Don't specify fields id and flight status. It will insert automatically and the status will be PENDING.
+
 7) To change Flight status use PATCH method in Postman and enter: http://localhost:8080/flights/change-status/[FLIGHT_ID]?status=[STATUS_IN_UPPER_CASE]
 
 Example: http://localhost:8080/flights/change-status/4?status=ACTIVE
@@ -70,7 +72,7 @@ Depends on your localhost
 
 Control + C
 
-4. Push the image to the docker hub
+6. Push the image to the docker hub
 
 docker push <YOUR_DOCKER_HUB_ID/YOUR_IMAGE_NAME>
   
