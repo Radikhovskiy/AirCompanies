@@ -55,17 +55,21 @@ Commands to work with Docker:
 1. Create a jar
 
 mvn clean package
+
 2. Build the image
 
 docker build -t <YOUR_DOCKER_HUB_ID/YOUR_IMAGE_NAME> .
+
 3. Run it locally and check the result on localhost
 
 docker run -p 8080:8080 <YOUR_DOCKER_HUB_ID/YOUR_IMAGE_NAME>
 
 Depends on your localhost
+
 5. Stop it locally
 
 Control + C
+
 4. Push the image to the docker hub
 
 docker push <YOUR_DOCKER_HUB_ID/YOUR_IMAGE_NAME>
