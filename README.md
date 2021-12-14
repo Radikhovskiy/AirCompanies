@@ -48,7 +48,7 @@ P.s. Don't specify fields id and flight status. It will insert automatically and
 Example: http://localhost:8080/flights/change-status/4?status=ACTIVE
 Started and ended time will be inserted automatically for suitable statuses. 
 
-Note: you can use me Postman collection to test application: https://www.postman.com/orbital-module-technologist-4380168/workspace/public-workspace/collection/18301113-f36f098c-22ff-47d7-8d67-43d84640ba25
+Note: you can use my Postman collection to test application: https://www.postman.com/orbital-module-technologist-4380168/workspace/public-workspace/collection/18301113-f36f098c-22ff-47d7-8d67-43d84640ba25
 
 **Run app with help Docker:**
 
